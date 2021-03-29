@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client:
+    #不注册自己
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      #单击模式
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      # 相互注册
+      defaultZone: http://eureka7002.com:7002/eureka/

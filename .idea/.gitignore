@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../com.atguigu.cloud\.idea/codestream.xml
+# Datasource local storage ignored files
+/../../../../:\IdeaProjects\com.atguigu.cloud\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
